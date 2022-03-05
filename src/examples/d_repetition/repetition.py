@@ -45,3 +45,30 @@ def for_display_sum_of_squares(num,num1):
     for val in range(num, num1):
         square = val**2
         print(val, '\t', square)
+
+def get_sum(num): #
+    sum = 0
+    count = 0
+    while(count <= num):
+        sum += count
+        count += 1
+    return sum
+
+def get_sum_for(num):
+    sum = 0
+
+    for n in range(num):
+        sum += n + 1
+    return sum
+
+def demo_sentinel():
+    lot_num = 1
+
+    while lot_num != 0:
+        lot_num = input('enter a lot number. ')
+        if(lot_num.isnumeric()):
+            lot_num = int(lot_num)
+        else:
+            print('entry must be a number.')
+
+        print(lot_num)
