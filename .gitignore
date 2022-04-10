@@ -332,3 +332,15 @@ src/examples/h_strings/main.py
 src/examples/h_strings/strings.py
 tests/examples/d_repetition/tests_repetition.py
 tests/examples/e_functions/tests_functions.py
+tests/examples/h_strings/tests_strings.py
+tests/examples/g_lists_and_tuples/tests_lists_and_tuples.py
+tests/examples/e_functions/tests_functions.py
+src/examples/e_functions/value_return_functions.py
+src/examples/g_lists_and_tuples/lists.py
+src/examples/g_lists_and_tuples/main.py
+src/examples/h_strings/main.py
+src/examples/h_strings/strings.py
+src/homework/h_strings/main.py
+tests/examples/e_functions/tests_functions.py
+tests/examples/g_lists_and_tuples/tests_lists_and_tuples.py
+tests/examples/h_strings/tests_strings.py

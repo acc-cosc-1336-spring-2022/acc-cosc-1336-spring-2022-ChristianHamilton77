@@ -20,3 +20,6 @@ def display_random(min,max,cnt):
 
     for i in range(cnt):
         print(random.randint(min,max))
+
+def return_f_l_name():
+    return "joe","cool"

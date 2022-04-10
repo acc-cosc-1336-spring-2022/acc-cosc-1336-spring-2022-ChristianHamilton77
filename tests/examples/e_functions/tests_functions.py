@@ -2,6 +2,8 @@ import unittest
 
 from src.examples.e_functions.value_return_functions import test_config
 from src.examples.e_functions.value_return_functions import get_random
+from src.examples.e_functions.value_return_functions import return_f_l_name
+
 class Test_Config(unittest.TestCase):
 
     def test_configuration(self):
@@ -12,4 +14,8 @@ class Test_Config(unittest.TestCase):
         flag = rand >= 1 and rand <= 100
         self.assertEqual(flag, True)
         # self.assertGreaterEqual(rand,1)
-        # self.assertLessEqual(rand,100)    
+        # self.assertLessEqual(rand,100) 
+    def test_return_f_l_name(self):
+        first,last = return_f_l_name()
+        self.assertEqual(first,"joe")
+        self.assertEqual(last,"cool")
