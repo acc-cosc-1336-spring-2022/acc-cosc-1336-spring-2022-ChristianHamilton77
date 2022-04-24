@@ -14,12 +14,12 @@ while choice != 3:
         dataName = input('Enter an item name to add or edit.\n')
         value = dict.get(dataName)
         if value:
-            dataValue = input(dataName + ' is in the dictionary, enter the value to add to ' + dataName + '.\n')
+            dataValue = input(dataName + ' is in the dictionary, enter the number value to add to ' + dataName + '.\n')
             dictionary.add_inventory(dict,dataName,dataValue)
             print('\n' + dataName + ':' + dataValue + ' has been added to the dictionary.\n')
             #print(dict)
         else:
-            dataValue = input(dataName + ' was not found in the dictionary, enter the value to add to ' + dataName + '.\n')
+            dataValue = input(dataName + ' was not found in the dictionary, enter the number value to add to ' + dataName + '.\n')
             dictionary.add_inventory(dict,dataName,dataValue)
             print('\n' + dataName + ':' + dataValue + ' has been added to the dictionary.\n')
            # print(dict)
